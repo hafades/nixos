@@ -5,6 +5,11 @@ input {
       options "grp:alt_shift_toggle"
     }
   }
+
+  touchpad {
+      natural-scroll
+  }
+
 }
 
 layout {
@@ -14,4 +19,6 @@ layout {
 binds {
   Mod+T { spawn "alacritty"; }
   Mod+Q { close-window; }
+  Mod+M { maximize-window-to-edges; }  
+  Mod+D { spawn "fuzzel"; }
 }
