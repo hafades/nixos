@@ -8,6 +8,7 @@
     ./fuzzel.nix
     ./waybar
     ./fonts.nix
+    ./keyring.nix
     ./niri
   ];
 }
