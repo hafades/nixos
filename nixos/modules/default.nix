@@ -8,6 +8,7 @@
     ./timezone.nix
     ./env.nix
     ./audio.nix
+    ./power.nix
     ./niri.nix
   ];
 }
