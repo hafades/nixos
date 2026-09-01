@@ -7,5 +7,6 @@
     ./nix.nix
     ./timezone.nix
     ./env.nix
+    ./niri.nix
   ];
 }

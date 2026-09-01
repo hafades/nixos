@@ -1,0 +1,16 @@
+input {
+  keyboard {
+    xkb {
+      lauout "us,ru"
+    }
+  }
+}
+
+layout {
+  gaps 10
+}
+
+binds {
+  Mod+T { spawn "alacritty"; }
+  Mod+Q { close-window }
+}
