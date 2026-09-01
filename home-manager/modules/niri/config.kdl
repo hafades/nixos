@@ -21,4 +21,16 @@ binds {
   Mod+Q { close-window; }
   Mod+M { maximize-window-to-edges; }  
   Mod+D { spawn "fuzzel"; }
+
+  // аудио
+  XF86AudioRaiseVolume { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "5%+"; }
+  XF86AudioLowerVolume { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "5%-"; }
+  XF86AudioMute { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SINK@" "toggle"; }
+
+  // микрофон
+  XF86AudioMicMute { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SOURCE@" "toggle"; }
+
+  // яркость экрана
+  XF86MonBrightnessUp { spawn "brightnessctl" "set" "5%+"; }
+  XF86MonBrightnessDown { spawn "brightnessctl" "set" "5%-"; }
 }
