@@ -1,7 +1,7 @@
 input {
   keyboard {
     xkb {
-      lauout "us,ru"
+      layout "us,ru"
       options "grp:alt_shift_toggle"
     }
   }
@@ -13,5 +13,5 @@ layout {
 
 binds {
   Mod+T { spawn "alacritty"; }
-  Mod+Q { close-window }
+  Mod+Q { close-window; }
 }
