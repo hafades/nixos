@@ -5,6 +5,8 @@
     ./alacritty.nix
     ./firefox.nix
     ./fuzzel.nix
+    ./waybar
+    ./fonts.nix
     ./niri
   ];
 }
